@@ -24,7 +24,7 @@ resource "aws_instance" "default" {
   subnet_id     = var.subnet_id
 
   tags = {
-    Name      = "test-it"
+    Name      = "stunko-test"
     timestamp = timestamp()
   }
 
