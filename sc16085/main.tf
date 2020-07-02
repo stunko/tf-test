@@ -1,11 +1,11 @@
 
 provider "scalr" {
-  hostname = var.hostname
-  token    = var.api_token
+  #hostname = var.hostname
+  #token    = var.api_token
 }
 
 resource scalr_workspace test {
-  name              = "stunko"
+  name              = "stunko2"
   organization      = "org-sgpvfvrkj5ao2j0"
   auto_apply        = "true"
   terraform_version = "0.12.19"
