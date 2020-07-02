@@ -1,7 +1,7 @@
 
 provider "scalr" {
-  hostname = "var.hostname"
-  token    = "var.api_token"
+  hostname = var.hostname
+  token    = var.api_token
 }
 
 resource scalr_workspace test {
