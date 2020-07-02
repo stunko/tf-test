@@ -5,7 +5,7 @@ provider "scalr" {
 }
 
 resource scalr_workspace test {
-  name              = "stunko2"
+  name              = "stunko"
   organization      = "org-sgpvfvrkj5ao2j0"
   auto_apply        = "true"
   terraform_version = "0.12.19"
