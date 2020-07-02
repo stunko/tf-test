@@ -1,0 +1,14 @@
+{
+  "terraform": {
+    "required_version": "0.12.8",
+    "backend": {
+      "remote" {
+        "hostname": "5f6250e8bdc8.test-env.scalr.com",
+    	"organization": "org-sgpvfvrkj5ao2j0",
+   	"workspaces": {
+      	  "name": "sc-14290"
+	}    	
+      }
+    }
+  }
+}
