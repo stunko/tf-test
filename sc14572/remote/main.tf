@@ -1,5 +1,5 @@
 module "person" {
-  source = "github.com/stunko/tf-remote-modules"
+  source = "git@github.com:stunko/tf-remote-modules.git"
 }
 
 
