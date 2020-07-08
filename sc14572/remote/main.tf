@@ -1,5 +1,5 @@
 module "person" {
-  source = "git::ssh://git@github.com:stunko/tf-remote-modules.git"
+  source = "git::https://github.com/stunko/tf-remote-modules.git"
 }
 
 
