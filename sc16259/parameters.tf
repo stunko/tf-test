@@ -1,7 +1,7 @@
 locals {
    env = {
       default = {
-         instance_type  = "t2.micro"
+         instance_type  = "t1.micro"
          ami            = "ami-0ff8a91507f77f867"
          instance_count = 1
       }
