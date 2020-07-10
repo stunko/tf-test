@@ -126,7 +126,7 @@ variable "az_number" {
 
 variable "instance_type1" {
   type = string
-  default = "t1.small"
+  default = "t2.small"
 }
 
 variable "network" {
