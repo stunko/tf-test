@@ -1,0 +1,22 @@
+vpc = {
+  "arn" = "arn:aws:ec2:us-west-2:753646501470:vpc/vpc-0a1d5a09545df5d29"
+  "assign_generated_ipv6_cidr_block" = false
+  "cidr_block" = "172.16.0.0/16"
+  "default_network_acl_id" = "acl-0d43c530585af11f6"
+  "default_route_table_id" = "rtb-07cbd1dc962def19f"
+  "default_security_group_id" = "sg-095119122ea1bf847"
+  "dhcp_options_id" = "dopt-11683568"
+  "enable_classiclink" = false
+  "enable_classiclink_dns_support" = false
+  "enable_dns_hostnames" = false
+  "enable_dns_support" = true
+  "id" = "vpc-0a1d5a09545df5d29"
+  "instance_tenancy" = "default"
+  "ipv6_association_id" = ""
+  "ipv6_cidr_block" = ""
+  "main_route_table_id" = "rtb-07cbd1dc962def19f"
+  "owner_id" = "753646501470"
+  "tags" = {
+    "Name" = "tf-0.12-rvt-example-vpc"
+  }
+}
