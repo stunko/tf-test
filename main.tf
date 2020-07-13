@@ -67,13 +67,3 @@ output "upper-case-map" {
   value = {for l in var.letters: l => upper(l)}
 sensitive   = true
     }
-
-output "instance_id" {
-  description = "Instance ID"
-  value       = aws_instance.ubuntu.id
-}
-
-output "template_registry_example" {
-  value = ["a", "b", "c", "d"]
-}
-
